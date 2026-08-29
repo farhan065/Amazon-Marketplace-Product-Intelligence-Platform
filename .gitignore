@@ -71,3 +71,5 @@ pip-wheel-metadata/
 *.temp
 *.swp
 *.swo
+
+cookies.json
