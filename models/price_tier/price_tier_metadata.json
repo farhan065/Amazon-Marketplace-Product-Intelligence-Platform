@@ -1,0 +1,56 @@
+{
+  "feature": "price_tier_classification",
+  "selected_method": "Tuned Logistic Regression",
+  "selected_family": "Logistic Regression",
+  "selected_parameters": {
+    "C": 2.0,
+    "class_weight": "balanced"
+  },
+  "class_labels": [
+    "Budget",
+    "Mid-range",
+    "Premium"
+  ],
+  "product_count": 981,
+  "reference_label_count": 913,
+  "missing_price_count": 68,
+  "model_features": [
+    "combined_text",
+    "brand",
+    "keyword",
+    "marketplace",
+    "log_review_count",
+    "average_rating",
+    "title_length",
+    "description_length",
+    "title_missing",
+    "description_missing",
+    "brand_missing",
+    "review_count_missing",
+    "rating_missing"
+  ],
+  "price_used_for_label_creation": true,
+  "price_used_as_model_feature": false,
+  "explicit_currency_amounts_removed_from_text": true,
+  "missing_numeric_handling": "Training-set median imputation with missing-value indicators",
+  "negative_review_count_handling": "Absolute value because the negative sign was introduced by scraping format",
+  "confidence_available": true,
+  "prediction_reason_method": "Top positive linear feature contributions",
+  "final_test_results": {
+    "method": "Tuned Logistic Regression",
+    "accuracy": 0.49635036496350365,
+    "balanced_accuracy": 0.4945626477541371,
+    "macro_precision": 0.4922140491246183,
+    "macro_recall": 0.4945626477541371,
+    "macro_f1": 0.4919626686004606,
+    "minimum_class_f1": 0.4418604651162791,
+    "ordinal_mae": 0.656934306569343,
+    "severe_error_rate": 0.15328467153284672,
+    "log_loss": 1.1022900385824785,
+    "average_confidence": 0.5146128289966839,
+    "average_response_time_ms": 5.593544985402292,
+    "deterministic": true,
+    "evaluated_products": 137
+  },
+  "created_at_utc": "2026-08-30T20:40:28.342158+00:00"
+}

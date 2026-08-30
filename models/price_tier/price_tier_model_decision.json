@@ -1,0 +1,30 @@
+{
+  "selected_method": "Tuned Logistic Regression",
+  "selected_family": "Logistic Regression",
+  "selected_parameters": {
+    "C": 2.0,
+    "class_weight": "balanced"
+  },
+  "selection_primary_metric": "validation_macro_f1",
+  "selection_used_final_test": false,
+  "final_test_evaluated_once": true,
+  "price_used_as_model_feature": false,
+  "deployment_training_products": 776,
+  "final_test_products": 137,
+  "final_test_results": {
+    "method": "Tuned Logistic Regression",
+    "accuracy": 0.49635036496350365,
+    "balanced_accuracy": 0.4945626477541371,
+    "macro_precision": 0.4922140491246183,
+    "macro_recall": 0.4945626477541371,
+    "macro_f1": 0.4919626686004606,
+    "minimum_class_f1": 0.4418604651162791,
+    "ordinal_mae": 0.656934306569343,
+    "severe_error_rate": 0.15328467153284672,
+    "log_loss": 1.1022900385824785,
+    "average_confidence": 0.5146128289966839,
+    "average_response_time_ms": 5.593544985402292,
+    "deterministic": true,
+    "evaluated_products": 137
+  }
+}
