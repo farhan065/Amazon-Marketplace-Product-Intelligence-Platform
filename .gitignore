@@ -74,3 +74,35 @@ pip-wheel-metadata/
 
 cookies.json
 downloaded_images/
+
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.streamlit/secrets.toml
+
+# Editors
+.vscode/
+.idea/
+
+# Raw and temporary data
+data/raw/
+data/interim/
+data/processed/roberta_labeling_checkpoint.csv
+data/processed/reviews_pseudo_labeled.csv
+data/processed/reviews_for_labeling.csv
+
+# Large Hugging Face model weights
+models/sentiment/roberta_inference/
+
+# Hugging Face cache
+.cache/
+huggingface/

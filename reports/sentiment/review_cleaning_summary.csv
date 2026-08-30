@@ -1,0 +1,10 @@
+metric,value
+Product-review associations,7595
+Unique review IDs,6486
+Products represented,961
+Usable sentiment rows,7595
+Unusable sentiment rows,0
+Unparseable ratings,0
+Unparseable dates,0
+Reviews longer than 500 words,236
+Keyword-level unique reviews,6486

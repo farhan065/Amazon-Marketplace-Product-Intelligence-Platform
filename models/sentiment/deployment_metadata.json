@@ -1,0 +1,37 @@
+{
+  "deployment_model": "cardiffnlp/twitter-roberta-base-sentiment-latest",
+  "deployment_model_directory": "models/sentiment/roberta_inference",
+  "classical_candidate": "TF-IDF Logistic Regression",
+  "classical_candidate_directory": "models/sentiment/classical_candidate",
+  "output_labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "streamlit_inference_model": "RoBERTa",
+  "maximum_token_length": 512,
+  "low_confidence_warning_threshold": 0.7,
+  "selection_reason": "RoBERTa achieved better human-test macro-F1, balanced accuracy, negative F1 and neutral F1.",
+  "roberta_human_metrics": {
+    "accuracy": 0.6233,
+    "balanced_accuracy": 0.5999,
+    "macro_f1": 0.5606,
+    "weighted_f1": 0.686,
+    "negative_f1": 0.7586,
+    "neutral_f1": 0.2047,
+    "positive_f1": 0.7185
+  },
+  "logistic_regression_human_metrics": {
+    "accuracy": 0.6867,
+    "balanced_accuracy": 0.4806,
+    "macro_f1": 0.4908,
+    "weighted_f1": 0.6693,
+    "negative_f1": 0.65,
+    "neutral_f1": 0.0417,
+    "positive_f1": 0.7806
+  },
+  "known_limitation": "Neutral sentiment remains difficult even for RoBERTa. Low-confidence predictions should be presented as uncertain.",
+  "transformers_version": "5.15.1",
+  "pytorch_version": "2.11.0+cu128",
+  "saved_at_utc": "2026-08-30T04:24:53.598951+00:00"
+}
