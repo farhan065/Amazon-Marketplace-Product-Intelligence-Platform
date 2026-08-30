@@ -1,0 +1,29 @@
+model,params,mean_test_score,std_test_score,rank_test_score
+Complement Naive Bayes,"{""classifier__alpha"": 0.1, ""tfidf__ngram_range"": [1, 1]}",0.5786130139541145,0.014274642244426622,6
+Complement Naive Bayes,"{""classifier__alpha"": 0.1, ""tfidf__ngram_range"": [1, 2]}",0.6233012685516193,0.0035384084304444837,2
+Complement Naive Bayes,"{""classifier__alpha"": 0.5, ""tfidf__ngram_range"": [1, 1]}",0.5983460837234603,0.026250337871338125,3
+Complement Naive Bayes,"{""classifier__alpha"": 0.5, ""tfidf__ngram_range"": [1, 2]}",0.6261290835517214,0.01487797430986604,1
+Complement Naive Bayes,"{""classifier__alpha"": 1.0, ""tfidf__ngram_range"": [1, 1]}",0.5913817362006665,0.021961807755732324,5
+Complement Naive Bayes,"{""classifier__alpha"": 1.0, ""tfidf__ngram_range"": [1, 2]}",0.5949433584967454,0.01684130882395096,4
+Complement Naive Bayes,"{""classifier__alpha"": 2.0, ""tfidf__ngram_range"": [1, 1]}",0.5761734747698998,0.021252274992629983,7
+Complement Naive Bayes,"{""classifier__alpha"": 2.0, ""tfidf__ngram_range"": [1, 2]}",0.5697620512320403,0.01946312886634984,8
+Logistic Regression,"{""classifier__C"": 0.1, ""tfidf__ngram_range"": [1, 1]}",0.6748016417734796,0.016854965985195192,10
+Logistic Regression,"{""classifier__C"": 0.1, ""tfidf__ngram_range"": [1, 2]}",0.6881398250198257,0.02014802901198059,9
+Logistic Regression,"{""classifier__C"": 0.5, ""tfidf__ngram_range"": [1, 1]}",0.7331493054555708,0.03241748583951141,1
+Logistic Regression,"{""classifier__C"": 0.5, ""tfidf__ngram_range"": [1, 2]}",0.7022649181351693,0.019007725871415512,6
+Logistic Regression,"{""classifier__C"": 1.0, ""tfidf__ngram_range"": [1, 1]}",0.7119960750720541,0.04265451356052619,4
+Logistic Regression,"{""classifier__C"": 1.0, ""tfidf__ngram_range"": [1, 2]}",0.6932725044125968,0.014653308859331068,8
+Logistic Regression,"{""classifier__C"": 2.0, ""tfidf__ngram_range"": [1, 1]}",0.721236866709266,0.0393861794387169,3
+Logistic Regression,"{""classifier__C"": 2.0, ""tfidf__ngram_range"": [1, 2]}",0.6968189499030814,0.027299533682128712,7
+Logistic Regression,"{""classifier__C"": 5.0, ""tfidf__ngram_range"": [1, 1]}",0.7257657428927571,0.04885345610550453,2
+Logistic Regression,"{""classifier__C"": 5.0, ""tfidf__ngram_range"": [1, 2]}",0.7048833585632006,0.03238605048954328,5
+Linear SVM,"{""classifier__C"": 0.1, ""tfidf__ngram_range"": [1, 1]}",0.5198266691092336,0.011972709152655813,9
+Linear SVM,"{""classifier__C"": 0.1, ""tfidf__ngram_range"": [1, 2]}",0.4514039057492665,0.012398391101498783,10
+Linear SVM,"{""classifier__C"": 0.5, ""tfidf__ngram_range"": [1, 1]}",0.6261724504634851,0.01973843337396701,4
+Linear SVM,"{""classifier__C"": 0.5, ""tfidf__ngram_range"": [1, 2]}",0.5259170039816894,0.015924490003171532,8
+Linear SVM,"{""classifier__C"": 1.0, ""tfidf__ngram_range"": [1, 1]}",0.6711762731883592,0.02960789392071406,1
+Linear SVM,"{""classifier__C"": 1.0, ""tfidf__ngram_range"": [1, 2]}",0.5633667762033534,0.018086474348023074,7
+Linear SVM,"{""classifier__C"": 2.0, ""tfidf__ngram_range"": [1, 1]}",0.658544209789967,0.00415856660751942,2
+Linear SVM,"{""classifier__C"": 2.0, ""tfidf__ngram_range"": [1, 2]}",0.6060543145063947,0.023280939516825916,5
+Linear SVM,"{""classifier__C"": 5.0, ""tfidf__ngram_range"": [1, 1]}",0.655527033098617,0.008023588711166542,3
+Linear SVM,"{""classifier__C"": 5.0, ""tfidf__ngram_range"": [1, 2]}",0.597278025532115,0.023368075832196317,6

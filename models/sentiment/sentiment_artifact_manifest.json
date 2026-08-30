@@ -1,0 +1,40 @@
+{
+  "feature": "sentiment_analysis",
+  "pipeline_status": "completed",
+  "deployment_model": "cardiffnlp/twitter-roberta-base-sentiment-latest",
+  "classical_candidate": "TF-IDF Logistic Regression",
+  "application_data": {
+    "review_association_rows": 7595,
+    "product_rows": 981,
+    "keyword_rows": 28,
+    "products_without_reviews": 20,
+    "sentiment_distribution": {
+      "negative": 485,
+      "neutral": 411,
+      "positive": 6699
+    },
+    "low_confidence_rows": 985
+  },
+  "application_files": {
+    "review_sentiment_data": "data/processed/reviews_sentiment_app.csv",
+    "product_sentiment_summary": "data/processed/product_sentiment_summary.csv",
+    "keyword_sentiment_summary": "data/processed/keyword_sentiment_summary.csv",
+    "human_test_data": "data/manual_labels/sentiment_human_test.csv",
+    "logistic_regression_candidate": "models/sentiment/classical_candidate/logistic_regression_candidate.joblib",
+    "roberta_config": "models/sentiment/roberta_inference/config.json",
+    "roberta_tokenizer_config": "models/sentiment/roberta_inference/tokenizer_config.json",
+    "deployment_metadata": "models/sentiment/deployment_metadata.json"
+  },
+  "roberta_weight_files": [
+    "models/sentiment/roberta_inference/model.safetensors"
+  ],
+  "application_behavior": {
+    "sentiment_overview": "RoBERTa predictions",
+    "product_analysis": "RoBERTa predictions",
+    "keyword_summary": "RoBERTa predictions",
+    "custom_review_classifier": "RoBERTa inference",
+    "low_confidence_threshold": 0.7
+  },
+  "known_limitation": "Neutral sentiment performance remains limited. Low-confidence results must be marked as uncertain.",
+  "validated_at_utc": "2026-08-30T04:38:57.905086+00:00"
+}

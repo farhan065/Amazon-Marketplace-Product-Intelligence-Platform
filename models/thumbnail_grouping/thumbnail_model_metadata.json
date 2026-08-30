@@ -1,0 +1,30 @@
+{
+  "feature": "thumbnail_grouping",
+  "feature_extractor": "DINOv2-Small",
+  "feature_extractor_model": "facebook/dinov2-small",
+  "clustering_algorithm": "KMeans",
+  "selected_k": 26,
+  "elbow_k_reference": 13,
+  "selection_rule": "Highest cosine Silhouette Score; Elbow retained as reference",
+  "cosine_silhouette_score": 0.422902,
+  "unique_image_count": 979,
+  "product_count": 981,
+  "pca_output_dimension": 171,
+  "keyword_nmi_post_clustering": 0.901244,
+  "clustering_inputs": {
+    "visual_embeddings": true,
+    "title": false,
+    "brand": false,
+    "keyword": false,
+    "description": false,
+    "category": false
+  },
+  "interpretation_inputs": {
+    "representative_images": true,
+    "cluster_silhouette": true,
+    "centroid_similarity": true,
+    "title_terms": true,
+    "keyword_audit": true
+  },
+  "notes": "Title and keyword data are used only after clustering to interpret and audit the visual groups."
+}

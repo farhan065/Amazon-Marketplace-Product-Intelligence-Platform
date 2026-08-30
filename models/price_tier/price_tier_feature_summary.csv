@@ -1,0 +1,61 @@
+﻿price_tier,rank,raw_feature,feature,coefficient
+Budget,1,categorical__brand_Visit the SUIN Store,brand: Visit the SUIN Store,1.9114474731718372
+Budget,2,categorical__brand_Visit the FNTCASE Store,brand: Visit the FNTCASE Store,1.440040954772638
+Budget,3,categorical__brand_Visit the Voncerus Store,brand: Visit the Voncerus Store,1.273471942576658
+Budget,4,categorical__brand_Visit the carori Store,brand: Visit the carori Store,1.126707283699556
+Budget,5,categorical__brand_Visit the LOVEVOOK Store,brand: Visit the LOVEVOOK Store,1.1247120688105876
+Budget,6,categorical__brand_Visit the CAHAYA Store,brand: Visit the CAHAYA Store,1.1198306574125418
+Budget,7,categorical__brand_Visit the FikShot Store,brand: Visit the FikShot Store,1.105196638536972
+Budget,8,categorical__brand_Visit the Taja Store,brand: Visit the Taja Store,1.0723247666709002
+Budget,9,categorical__brand_Visit the Cillso Store,brand: Visit the Cillso Store,1.0645343663598623
+Budget,10,categorical__brand_Brand: XIAOWTEK,brand: Brand: XIAOWTEK,1.064507616452792
+Budget,11,categorical__brand_Visit the Trendy Queen Store,brand: Visit the Trendy Queen Store,1.0637268620127351
+Budget,12,categorical__brand_Visit the Mr. Pen Store,brand: Visit the Mr. Pen Store,1.0542987204683936
+Budget,13,categorical__brand_Visit the ADOREJOY Store,brand: Visit the ADOREJOY Store,1.021523615355377
+Budget,14,categorical__brand_Visit the ENCOOL Store,brand: Visit the ENCOOL Store,1.0183903954979234
+Budget,15,categorical__brand_Visit the AROEVE Store,brand: Visit the AROEVE Store,1.0171734505069454
+Budget,16,categorical__brand_Visit the casmilee Store,brand: Visit the casmilee Store,1.0016070990941335
+Budget,17,categorical__brand_Visit the Onmiwod Store,brand: Visit the Onmiwod Store,0.954672772793081
+Budget,18,categorical__brand_Visit the Zeagoo Store,brand: Visit the Zeagoo Store,0.9415307758573122
+Budget,19,text__yamaha,text term: yamaha,0.9166991410006288
+Budget,20,categorical__brand_Visit the GOPPUS Store,brand: Visit the GOPPUS Store,0.885967865995472
+Mid-range,1,categorical__brand_CamelBak,brand: CamelBak,1.490111423474465
+Mid-range,2,categorical__brand_Visit the KALIYADI Store,brand: Visit the KALIYADI Store,1.4802173755167065
+Mid-range,3,categorical__brand_Brand: MINOMAC,brand: Brand: MINOMAC,1.4029030576956474
+Mid-range,4,categorical__brand_Visit the FOCUS DAY Store,brand: Visit the FOCUS DAY Store,1.3346154718875507
+Mid-range,5,categorical__brand_Visit the ESR Store,brand: Visit the ESR Store,1.3323659453496328
+Mid-range,6,categorical__brand_Visit the Pyle Store,brand: Visit the Pyle Store,1.2695178662064712
+Mid-range,7,categorical__brand_Visit the Vicsoon Store,brand: Visit the Vicsoon Store,1.2451809162777778
+Mid-range,8,categorical__brand_Visit the Nextnoid Store,brand: Visit the Nextnoid Store,1.242654945992063
+Mid-range,9,categorical__brand_Visit the Bath & Body Works Store,brand: Visit the Bath & Body Works Store,1.2359246372569939
+Mid-range,10,categorical__brand_Visit the FEISEDY Store,brand: Visit the FEISEDY Store,1.2318631193256797
+Mid-range,11,categorical__brand_Visit the PAPERAGE Store,brand: Visit the PAPERAGE Store,1.2207953560546998
+Mid-range,12,categorical__brand_Brand: Fhumsh,brand: Brand: Fhumsh,1.180572817484516
+Mid-range,13,categorical__brand_Levoit,brand: Levoit,1.1436870847390546
+Mid-range,14,categorical__brand_Visit the GTPLAYER Store,brand: Visit the GTPLAYER Store,1.1397953107457353
+Mid-range,15,categorical__brand_Visit the MANBASNAKE Store,brand: Visit the MANBASNAKE Store,1.1217606351346099
+Mid-range,16,categorical__brand_Visit the Reebok Store,brand: Visit the Reebok Store,1.087298196195315
+Mid-range,17,categorical__brand_Visit the AQUAFIT Store,brand: Visit the AQUAFIT Store,1.0708306308359226
+Mid-range,18,categorical__brand_Visit the EMEET Store,brand: Visit the EMEET Store,1.0636021748532585
+Mid-range,19,categorical__brand_Visit the Fruit of the Loom Store,brand: Visit the Fruit of the Loom Store,1.0490972824167601
+Mid-range,20,categorical__brand_Visit the HAOYUYAN Store,brand: Visit the HAOYUYAN Store,1.0439971583458032
+Premium,1,categorical__brand_Visit the Micomlan Store,brand: Visit the Micomlan Store,1.4600593383624731
+Premium,2,categorical__brand_Visit the Miracase Store,brand: Visit the Miracase Store,1.4343892977152317
+Premium,3,categorical__brand_Visit the Gamtimer Store,brand: Visit the Gamtimer Store,1.4248232901445061
+Premium,4,categorical__brand_Visit the New Balance Store,brand: Visit the New Balance Store,1.3777856573207334
+Premium,5,categorical__brand_Ninja,brand: Ninja,1.3681990268178175
+Premium,6,categorical__brand_Belkin,brand: Belkin,1.3504152657098973
+Premium,7,categorical__brand_Visit the SOJOS Store,brand: Visit the SOJOS Store,1.3257361123184137
+Premium,8,categorical__brand_Visit the HydroJug Store,brand: Visit the HydroJug Store,1.3121745458382683
+Premium,9,categorical__brand_Visit the M&SENSE Store,brand: Visit the M&SENSE Store,1.2709937754750882
+Premium,10,categorical__brand_Visit the HOSHANHO Store,brand: Visit the HOSHANHO Store,1.257858493419331
+Premium,11,categorical__brand_Fender,brand: Fender,1.194376616303495
+Premium,12,categorical__brand_Visit the RAYMYLO Store,brand: Visit the RAYMYLO Store,1.182359962286929
+Premium,13,categorical__brand_Hydro Flask,brand: Hydro Flask,1.1816783306515983
+Premium,14,categorical__brand_Visit the Kingsted Store,brand: Visit the Kingsted Store,1.1434954381816493
+Premium,15,categorical__brand_Visit the feela Store,brand: Visit the feela Store,1.1174337385673672
+Premium,16,categorical__brand_Breville,brand: Breville,1.1095129524143321
+Premium,17,categorical__brand_Visit the Soundcore Store,brand: Visit the Soundcore Store,1.0939651892379794
+Premium,18,categorical__brand_Visit the NOCO Store,brand: Visit the NOCO Store,1.0921976076588902
+Premium,19,categorical__brand_Visit the KEEPSHOWING Store,brand: Visit the KEEPSHOWING Store,1.0837201813459956
+Premium,20,categorical__brand_Visit the Traveler Guitar Store,brand: Visit the Traveler Guitar Store,1.075796068869993

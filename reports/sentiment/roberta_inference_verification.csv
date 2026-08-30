@@ -1,0 +1,4 @@
+﻿review_text,predicted_sentiment,confidence,low_confidence,negative_probability,neutral_probability,positive_probability
+Excellent sound quality and amazing battery life.,positive,0.9756566286087036,False,0.005353477783501148,0.01898987963795662,0.9756566286087036
+"The product is okay, but nothing particularly special.",negative,0.5944401621818542,True,0.5944401621818542,0.36671146750450134,0.03884841501712799
+It stopped working after only two days.,negative,0.7797050476074219,False,0.7797050476074219,0.20770050585269928,0.012594504281878471

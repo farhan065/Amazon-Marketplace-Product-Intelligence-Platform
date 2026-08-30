@@ -1,0 +1,35 @@
+{
+  "selected_method": "TF-IDF",
+  "model_type": "content_based_tfidf",
+  "product_count": 981,
+  "feature_count": 25000,
+  "text_fields": [
+    "title",
+    "brand",
+    "description"
+  ],
+  "keyword_used_as_model_input": false,
+  "human_labels_used": false,
+  "relevance_definition": "Products sharing at least one collection keyword",
+  "evaluation_top_k": 5,
+  "tuning_queries": 686,
+  "final_holdout_queries": 295,
+  "selection_formula": {
+    "ndcg@5": 0.6,
+    "precision@5": 0.25,
+    "catalog_coverage": 0.15
+  },
+  "final_metrics": {
+    "method": "TF-IDF",
+    "ndcg@5": 0.9941854412813905,
+    "precision@5": 0.9932203389830508,
+    "hit_rate@5": 1.0,
+    "catalog_coverage": 0.7400611620795107,
+    "average_response_time_ms": 0.28881297966093417,
+    "deterministic": true,
+    "evaluated_queries": 295,
+    "selection_score": 0.9558255238265236
+  },
+  "deterministic": true,
+  "limitation": "Collection keywords are weak relevance labels rather than customer relevance data."
+}

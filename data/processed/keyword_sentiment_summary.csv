@@ -1,0 +1,29 @@
+﻿category,product_count,review_count,average_sentiment_confidence,negative_count,neutral_count,positive_count,negative_percentage,neutral_percentage,positive_percentage,dominant_sentiment
+sneakers,60,448,0.8773,26,23,399,5.8,5.13,89.06,positive
+sunglasses,57,422,0.8867,28,20,374,6.64,4.74,88.63,positive
+yamaha accoustic guitar,56,389,0.8769,31,32,326,7.97,8.23,83.8,positive
+candle,52,378,0.9177,43,10,325,11.38,2.65,85.98,positive
+desk lamp LED,49,375,0.8942,9,19,347,2.4,5.07,92.53,positive
+notebook journal,55,368,0.9287,3,13,352,0.82,3.53,95.65,positive
+gaming chair,55,353,0.872,42,23,288,11.9,6.52,81.59,positive
+kitchen knife set,54,352,0.9206,18,5,329,5.11,1.42,93.47,positive
+water bottle,58,344,0.887,16,11,317,4.65,3.2,92.15,positive
+t-shirt,57,336,0.8855,21,15,300,6.25,4.46,89.29,positive
+electric toothbrush,54,315,0.8658,25,16,274,7.94,5.08,86.98,positive
+coffee maker,58,300,0.8506,25,24,251,8.33,8.0,83.67,positive
+phone stand,22,167,0.8978,5,13,149,2.99,7.78,89.22,positive
+gaming mouse,22,161,0.8924,11,4,146,6.83,2.48,90.68,positive
+smartwatch,22,157,0.867,5,15,137,3.18,9.55,87.26,positive
+portable charger,22,153,0.8615,14,11,128,9.15,7.19,83.66,positive
+budget laptop,20,144,0.8891,26,3,115,18.06,2.08,79.86,positive
+air purifier,20,140,0.8125,6,15,119,4.29,10.71,85.0,positive
+webcam HD,18,136,0.8945,11,6,119,8.09,4.41,87.5,positive
+phone case,22,136,0.8994,4,2,130,2.94,1.47,95.59,positive
+bluetooth speaker,17,128,0.8881,7,5,116,5.47,3.91,90.62,positive
+DSLR camera,19,128,0.8852,11,7,110,8.59,5.47,85.94,positive
+USB-C hub,17,120,0.848,13,12,95,10.83,10.0,79.17,positive
+backpack,23,112,0.9057,3,4,105,2.68,3.57,93.75,positive
+mechanical keyboard,19,112,0.8698,5,7,100,4.46,6.25,89.29,positive
+monitor 27 inch,16,112,0.8835,4,11,97,3.57,9.82,86.61,positive
+instant pot,21,104,0.8797,7,14,83,6.73,13.46,79.81,positive
+wireless earbuds,16,96,0.9323,3,3,90,3.12,3.12,93.75,positive

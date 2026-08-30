@@ -1,0 +1,43 @@
+{
+  "model_name": "TF-IDF Logistic Regression",
+  "model_version": "1.0",
+  "created_at_utc": "2026-08-30T04:01:12.721778+00:00",
+  "text_column": "model_text",
+  "output_labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "pseudo_label_confidence_threshold": 0.7,
+  "training_rows": 4227,
+  "pseudo_validation_rows": 1057,
+  "human_test_rows": 300,
+  "selection_metric": "pseudo-validation macro-F1",
+  "selection_score": 0.7261,
+  "tfidf_parameters": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.95,
+    "max_features": 50000,
+    "sublinear_tf": true
+  },
+  "classifier_parameters": {
+    "classifier": "LogisticRegression",
+    "C": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 2000
+  },
+  "human_test_metrics": {
+    "accuracy": 0.6866666666666666,
+    "balanced_accuracy": 0.48063046865635856,
+    "macro_precision": 0.5496963128542075,
+    "macro_recall": 0.48063046865635856,
+    "macro_f1": 0.4907596371882086,
+    "weighted_f1": 0.6692636054421769
+  },
+  "scikit_learn_version": "1.6.1",
+  "joblib_version": "1.5.3"
+}
