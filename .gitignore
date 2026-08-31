@@ -94,7 +94,7 @@ __pycache__/
 .idea/
 
 # Raw and temporary data
-data/raw/
+
 data/interim/
 data/processed/roberta_labeling_checkpoint.csv
 data/processed/reviews_pseudo_labeled.csv
