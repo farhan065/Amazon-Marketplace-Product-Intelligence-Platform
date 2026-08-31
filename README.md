@@ -680,34 +680,6 @@ Open every page and verify:
 - model-backed custom inference works; and
 - error messages identify missing files or version incompatibilities.
 
-## Docker
-
-Build the image from the repository root:
-
-```powershell
-docker build -t amazon-product-intelligence .
-```
-
-Run it:
-
-```powershell
-docker run --rm -p 8501:8501 amazon-product-intelligence
-```
-
-Open:
-
-```text
-http://localhost:8501
-```
-
-The Docker image must include the runtime files under `data/processed/` and `models/`. Do not exclude required model artifacts in `.dockerignore`.
-
-A typical container command is:
-
-```dockerfile
-CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501"]
-```
-
 ## Troubleshooting
 
 ### Streamlit page not found
