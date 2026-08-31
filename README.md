@@ -803,39 +803,6 @@ Example final commit message:
 Complete marketplace intelligence features with validated Streamlit workflows
 ```
 
-## Walkthrough guide
 
-A suggested 15-minute client walkthrough:
 
-1. **Project objective and architecture — 2 minutes**
-   - Explain collection, Colab development, saved artifacts, reusable backends, and Streamlit.
-2. **Sentiment Analysis — 3 minutes**
-   - Show overview, product reviews, keyword comparison, and custom classification.
-   - Explain pseudo-labeling and the separate human audit.
-3. **Similar Products — 3 minutes**
-   - Select a product, show ranked results and reasons, and repeat the query to demonstrate determinism.
-4. **Thumbnail Grouping — 3 minutes**
-   - Show group sizes and representatives, then find similar thumbnails.
-   - Explain why 26 groups were selected and why they are visual patterns rather than keywords.
-5. **Price Tier Classification — 3 minutes**
-   - Inspect an existing prediction and classify a custom product.
-   - Point out the absence of a price input and discuss moderate final-test performance.
-6. **Reproducibility and questions — 1 minute**
-   - Show project structure, requirements pinning, reports, and validation commands.
 
-## Final acceptance checklist
-
-- [ ] Raw collected products and reviews are present.
-- [ ] Request/response collection log is present and current.
-- [ ] Product URLs are sample-checked against live pages where accessible.
-- [ ] Feature notebooks run in their documented order.
-- [ ] Required processed CSVs and models are available locally.
-- [ ] All four Streamlit pages open from `app.py`.
-- [ ] Sentiment custom classification works.
-- [ ] Recommendation results are deterministic.
-- [ ] Thumbnail groups show representatives and group sizes.
-- [ ] Price Tier custom inference does not accept price.
-- [ ] Requirements use the model-compatible scikit-learn version.
-- [ ] Docker image builds and starts successfully.
-- [ ] Project Questions & Clarifications Log is updated.
-- [ ] Final Redmine update and Git commit are prepared.
