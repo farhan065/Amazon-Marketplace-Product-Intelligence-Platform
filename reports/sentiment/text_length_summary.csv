@@ -1,9 +1,0 @@
-metric,value
-Minimum words,1.0
-Median words,71.0
-75th percentile,148.75
-90th percentile,281.0
-95th percentile,418.0
-99th percentile,764.15
-Maximum words,2195.0
-Reviews above 500 words,211.0

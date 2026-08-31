@@ -1,9 +1,0 @@
-metric,value
-Total unique pseudo-labelled reviews,6486
-Human-labelled reviews excluded,300
-Additional matching texts excluded,0
-Low-confidence/truncated reviews excluded,896
-Duplicate training texts excluded,6
-Pseudo training rows,4227
-Pseudo validation rows,1057
-Human final test rows,300

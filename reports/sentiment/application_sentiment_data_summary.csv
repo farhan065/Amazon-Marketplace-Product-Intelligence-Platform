@@ -1,4 +1,0 @@
-dataset,rows,saved_path
-Review-level sentiment,7595,/content/drive/MyDrive/Amazon-Marketplace-Product-Intelligence-Platform-BJIT/data/processed/reviews_sentiment_app.csv
-Product-level sentiment,981,/content/drive/MyDrive/Amazon-Marketplace-Product-Intelligence-Platform-BJIT/data/processed/product_sentiment_summary.csv
-Keyword/category sentiment,28,/content/drive/MyDrive/Amazon-Marketplace-Product-Intelligence-Platform-BJIT/data/processed/keyword_sentiment_summary.csv
